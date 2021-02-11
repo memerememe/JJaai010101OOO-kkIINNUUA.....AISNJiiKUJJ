@@ -5,7 +5,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Setup tmate session
+    - name: Setup tmate sessio
       uses: mxschmitt/action-tmate@v3
       with:
         limit-access-to-actor: true
