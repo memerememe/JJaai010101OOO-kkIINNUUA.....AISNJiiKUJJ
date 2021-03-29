@@ -70,7 +70,7 @@ elif(platformname=="Linux"):
         f1 = number.replace("b'","")
         f2  = f1.replace("'","")
         print("Obtaining dependencies")
-        url = "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F"+f2+"%2Fchrome-linuxzip?&alt=media"
+        url = "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F"+f2+"%2Fchrome-linux.zip?&alt=media"
         r = requests.get(url)
         total_size_in_bytes= int(r.headers.get('content-length', 0))
         content = r.content
