@@ -29,7 +29,7 @@ class IdentifyLink:
             self.PATH = 'driver\chromedriver.exe'
 
         elif 'Linux' in platform.system():
-            self.PATH = 'driver/chromedriver'
+            self.PATH = 'driver/chromedriver_linux64chromedriver'
         elif 'Darwin' in platform.system():
             self.PATH = 'driver/chromedriver_mac64/chromedriver'
 
