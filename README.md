@@ -1,1 +1,1 @@
-# JJaai010101OOO-kkIINNUUA.....AISNJiiKUJJ
+# This repository was utilized during the development of TheProgrammingArchive/weather-terminal in collaboration with TheProgrammingArchive for testing applications prior to pushing to the main repository.
